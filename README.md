@@ -7,6 +7,10 @@
 
 ## Problem and rationale for using LLMs
 
+
+proposed problems
+- llm workflow that automatically finds jobs, internships, networking opportunities, etc...
+
 ## Planned LLM integration
 
 ## Project scope and feasibility
