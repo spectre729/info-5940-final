@@ -49,7 +49,8 @@ Inception: requirements and answered questions; stories and personas; execution 
 - [x] Propose product direction and schedule.
 - [x] Prepare questions, including extension opt-ins.
 - [ ] Receive and validate team answers.
-- [ ] Prepare and review README, vision, and technical environment inputs.
+- [x] Create vision and technical environment fill-in templates.
+- [ ] Fill and review README, vision, and technical environment inputs.
 - [ ] Complete and approve requirements.
 - [ ] Complete and approve stories/personas.
 - [ ] Complete and approve formal execution plan.
