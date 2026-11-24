@@ -104,3 +104,20 @@ def test_freshness_uses_posting_time_and_includes_72_hour_boundary():
 ## Evaluation during Construction
 
 Run fixture tests with two synthetic resumes, a corrected claim, a pasted job, fresh/older/undated listings and a repeated saved listing. Verify the corrected claim is used, each explanation cites both sources, and the saved role does not reappear as new. Reject fabricated bullet IDs and verify that rejecting a suggestion leaves the profile unchanged. Use a temporary SQLite file, a fixed clock and simulated HTTP/model/SMTP responses to check restarts, catch-up scans and failure handling. Test live provider access separately on a team laptop and record the results in the shared workflow.
+
+
+## Operating settings and team review
+
+| Item | Proposed setting |
+|---|---|
+| Laptop and tools | Target macOS or Linux, two CPU cores, 4 GB RAM and 1 GB free disk. Codex assisted with this input and Astra reviewed the proposal. Verify installed AI-DLC rules against v1.0.1 in the shared workflow. |
+| Model interface | OpenAI Responses API v1, OPENAI_MODEL and OPENAI_API_KEY. Validate access with synthetic input during Construction. |
+| Budget per scan | Limit each scan to 20 candidate listings, four tool calls, six model requests including retries, 60,000 input tokens, 12,000 output tokens and 180 seconds. Report partial results at the limit. |
+| Retrieval contracts | search_adzuna(query, location, page) and search_usajobs(keywords, location, page) return normalized listings or a source error. read_listing(listing_id) returns exact stored text, evidence IDs and provenance. |
+| Access and limits | Set ADZUNA_APP_ID, ADZUNA_APP_KEY, USAJOBS_API_KEY and USAJOBS_USER_AGENT locally. Fetch at most two pages per source per scan, respecting account quotas and Retry-After. |
+| Import | Up to five PDF or UTF-8 TXT files, 5 MB per file, ten PDF pages, 40,000 characters per pasted document. Offer paste for scanned PDFs. |
+| Storage and retention | Store private state in data/app.sqlite3 and uploaded files under data/. Retain private data until user deletion, respect source caching terms and expire redacted logs after seven days. Verify provider retention before using personal resumes. |
+| Offline demo and email | APP_MODE=fixtures selects synthetic jobs, recorded model outputs and a fixed clock. For opt-in TLS mail use SMTP_HOST, SMTP_PORT, SMTP_USERNAME, SMTP_PASSWORD and SMTP_FROM in local configuration. |
+| Acceptance | Every fixture explanation cites a confirmed claim and listing evidence, with zero invented facts. Every known duplicate and saved fixture is suppressed as new. Test one catch-up after a gap longer than four hours and no delivery after shutdown. |
+
+The whole-team technical review is pending. Record the actual reviewers, date and audit reference when the team reaches agreement. Record exact resolved dependency versions in uv.lock during Construction.
