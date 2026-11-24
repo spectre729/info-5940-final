@@ -50,6 +50,7 @@ Inception: requirements and answered questions; stories and personas; execution 
 - [x] Prepare questions, including extension opt-ins.
 - [ ] Receive and validate team answers.
 - [x] Create vision and technical environment fill-in templates.
+- [x] Draft vision.md from recorded README decisions. Team review is pending, and unresolved choices stay in the open-questions table.
 - [x] Draft README part 1 using user answers and existing-system reference.
 - [x] Draft README planned LLM integration and project scope/feasibility sections.
 - [ ] Fill and review README, vision, and technical environment inputs.

@@ -37,5 +37,5 @@ Opt-in decisions pending for Security Baseline, Resiliency Baseline, and Propert
 Validate team answers; prepare and team-review README, vision, and technical environment inputs. Do not generate final requirements or advance through the answer/approval gates prematurely.
 
 ## Input Document Templates
-- inputs/vision.md: template created; team completion/review pending.
+- inputs/vision.md: draft written from the README and recorded answers on 2026-11-24. Team review pending. Product name, model, sources, refresh behavior, and resume-bullet recombination remain open.
 - inputs/technical-environment.md: template created; team completion/review pending.
