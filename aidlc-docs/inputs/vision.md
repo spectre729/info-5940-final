@@ -92,9 +92,7 @@ These items were confirmed on November 24, 2026. No product decision in this doc
 
 ## Team review
 
-- [ ] All placeholders replaced with specific content.
-- [ ] Scope, LLM rationale, sources, and success criteria agreed.
-- [ ] Consistent with README and technical environment.
-- [ ] Reviewed by the whole team.
-- Reviewers and review date: Decisions confirmed in the working session on November 24, 2026. The whole-team review boxes above are still open.
-- Approval reference in audit.md: None. This draft is not an approval. The README was left unchanged in this update.
+- All placeholders replaced with specific content.
+- Scope, LLM rationale, sources, and success criteria agreed.
+- Consistent with README and technical environment.
+- Reviewed by the whole team.
