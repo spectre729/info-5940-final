@@ -3,9 +3,9 @@
 ## Team name and netID
 
 Yiyang Cheng yc3259
-
-to be filled...
-
+Alyssa Cohen ac2726
+Don Seo ds2549
+Dennis Chen dc777
 ## Coding Agent and AI-DLC version
 
 
@@ -32,8 +32,6 @@ To keep the project manageable, we plan to limit retrieval to a small set of sup
 ## Collaboration plan
 
 Four members share one project and one AI-DLC v1.0.1 workflow. Each member claims one part in the table by adding a full name and NetID. Claiming a part means owning those tasks through the December 16, 2026 final project. The whole team still reviews and approves each stage. If two people want the same part, they divide the tasks inside that part and record the division in the table.
-
-Yiyang Cheng (yc3259) is the only full name and NetID recorded so far. The other three members add their names and NetIDs under Team name and netID. GitHub accounts that can push, and can claim a part, are spectre729, acohen974, young531zz, and dongyuunseo.
 
 ### Meeting frequency
 
