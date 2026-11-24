@@ -1,6 +1,6 @@
 # Project vision
 
-Status: Draft updated on November 24, 2026 with the confirmed product name, model, sources, refresh behavior, and resume-bullet scope. The whole team has not checked the review boxes below.
+Status: updated on November 24, 2026 with the confirmed product name, model, sources, refresh behavior, and resume-bullet scope. 
 
 ## Product and users
 
