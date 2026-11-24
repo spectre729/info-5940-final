@@ -1,6 +1,6 @@
 # Project vision
 
-Status: updated on November 24, 2026 with the confirmed product name, model, sources, refresh behavior, and resume-bullet scope. 
+Status: whole-team review recorded on November 24, 2026. Confirmed product name, model, sources, refresh behavior, and resume-bullet scope. 
 
 ## Product and users
 
@@ -96,3 +96,5 @@ These items were confirmed on November 24, 2026. No product decision in this doc
 - Scope, LLM rationale, sources, and success criteria agreed.
 - Consistent with README and technical environment.
 - Reviewed by the whole team.
+- Reviewers and review date: Whole team, Yiyang Cheng (yc3259), Alyssa Cohen (ac2726), Don Seo (ds2549), and Dennis Chen (dc777), on November 24, 2026.
+- Approval reference in audit.md: Requirements Analysis - vision team review recorded, 2026-11-24T21:18:06Z. README.md was not edited in that record.
