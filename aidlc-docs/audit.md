@@ -187,3 +187,11 @@ C) Other (describe cadence, channel, and expected behavior while the app is clos
 **Context**: Requirements Analysis input preparation. Vision is a draft for team review, not stage approval. Requirements Analysis is not complete.
 
 ---
+
+## Requirements Analysis - vision decisions confirmed
+**Timestamp**: 2026-11-24T20:50:29Z
+**User Input**: "确认，记住在仓库里的要全英文"
+**AI Response**: "Updated aidlc-docs/inputs/vision.md in English only. Recorded the confirmed name AI Job Application Agent, OpenAI gpt-6.1-terra with Anthropic claude-haiku-5-5 as fallback, sources Adzuna US API, USAJOBS API, user-pasted LinkedIn job text, other pasted job text, and repository fixtures, a 4-hour scan while the app is running with no scan or email while it is closed, and user-reviewed arrangement of existing resume bullets as MVP-06. Did not edit README.md. Team-review boxes remain unchecked. Plain Markdown validated with no diagrams."
+**Context**: Requirements Analysis input preparation. The confirmation follows the in-chat recommendations and the request to add LinkedIn as a pasted job source. This is not a whole-team approval of the vision.
+
+---
