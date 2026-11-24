@@ -31,4 +31,85 @@ To keep the project manageable, we plan to limit retrieval to a small set of sup
 
 ## Collaboration plan
 
-to be filled
+Four members share one project and one AI-DLC v1.0.1 workflow. Each member claims one part in the table by adding a full name and NetID. Claiming a part means owning those tasks through the December 16, 2026 final project. The whole team still reviews and approves each stage. If two people want the same part, they divide the tasks inside that part and record the division in the table.
+
+Yiyang Cheng (yc3259) is the only full name and NetID recorded so far. The other three members add their names and NetIDs under Team name and netID. GitHub accounts that can push, and can claim a part, are spectre729, acohen974, young531zz, and dongyuunseo.
+
+### Meeting frequency
+
+The team meets twice a week through December 16, 2026. One meeting is a 90-minute working session. The other is a 45-minute review. The two weekly times are agreed in the group chat and then written into this section.
+
+### How meetings are conducted
+
+Meetings are online, with a shared screen on the repository and the coding agent. When all four members can be on campus for a session, that session is in person. One member runs the agent during the working session. The others stay in the session, answer questions, and review documents before the team approves a stage.
+
+### Communication between meetings
+
+Between meetings the team uses one group chat. A decision that changes scope, the model, the job sources, or the schedule is copied into the matching project document at the next working session, so the chat is not the only record.
+
+### How the work is shared
+
+Each member claims one of the four parts below. Implementation changes go through a branch and a pull request, and the reviewer is a member from a different part. Design decisions stay in one shared AI-DLC workflow, with the group's answers and approvals in a single record.
+
+| Part | Focus | Claimed by (full name, NetID) |
+|---|---|---|
+| 1 | Process, repository, and AI-DLC record | |
+| 2 | Product definition, stories, and presentation | |
+| 3 | Technical environment and local backend | |
+| 4 | Profile, matching quality, and evaluation | |
+
+Tasks everyone shares:
+
+- Attend both weekly meetings.
+- Read the documents for a stage and approve them together.
+- Answer the questions in the claimed part, and comment on the other parts.
+- Request changes when a proposal does not fit the product.
+- Keep API keys and private resume text out of the repository.
+- Complete an individual peer evaluation for the final submission.
+
+### Part 1 — Process, repository, and AI-DLC record
+
+Choose this part to run the shared agent session, keep the record complete, and manage submission.
+
+- Drive Construction one approved unit at a time, following the unit dependency order.
+- Keep `aidlc-docs/audit.md` and `aidlc-docs/aidlc-state.md` current through functional design, non-functional requirements, non-functional design, infrastructure design, and code generation for every unit.
+- Coordinate the build-and-test instructions and the record of test runs.
+- Keep the final checklist: demo video, recorded presentation, repository, and peer evaluation.
+- When the team pulls a stretch feature into scope, record that change through the workflow.
+
+### Part 2 — Product definition, stories, and presentation
+
+Choose this part to keep the written product consistent and to explain it at the end.
+
+- Keep the README, the vision, and the requirements consistent when the team changes a decision.
+- Check each Construction unit against the user stories and acceptance criteria.
+- Write the demo script for the path from profile setup to a reviewed shortlist.
+- Outline and help record the team presentation, including why an LLM fits, what the product does, and what was left out.
+- If the team later adds them, write the stories for networking, recruiter or hiring-manager discovery, and interview or assessment tracking.
+
+### Part 3 — Technical environment and local backend
+
+Choose this part to own the stack, model setup, job retrieval, storage, scheduling, and delivery.
+
+- Keep the technical environment document current after the team agrees on the provider, model, language, frameworks, local commands, prohibited libraries, and security basics.
+- Implement the source adapters and the saved demo dataset used when a live source is unavailable.
+- Implement persistence, the duplicate key, and saved statuses such as new, saved, hidden, applied, and rejected.
+- Implement deterministic handling of freshness, eligibility, and unknown fields around the model output.
+- Implement the scheduler, in-app delivery, and optional email delivery.
+- Add unit and integration tests. Use fixtures when a live call would spend money or depend on the network.
+- Write the local setup so any teammate can run the demo on a laptop.
+- Add further source adapters, or read-only mail and calendar ingestion, only after the team moves that work into scope.
+
+### Part 4 — Profile, matching quality, and evaluation
+
+Choose this part to own the candidate profile, the explanations, the review screens, and the evaluation.
+
+- Keep the profile fields specific: education, skills, projects, experience, preferences, and the source of each claim.
+- Specify which extracted claims the user confirms before they are used, and how several resumes become one reviewed profile.
+- With Part 2, record whether recombining existing resume bullets for a selected job is inside the user-reviewed product. Automated resume rewriting stays outside the MVP unless the whole team changes that decision.
+- Implement resume and pasted-text extraction, with validation of the structured model output.
+- Implement the profile review and correction screen.
+- Implement fit explanations that cite listing evidence and profile claims, and that surface gaps and unknowns.
+- Implement the shortlist review screen, including its empty and error states.
+- Build the fixture set, run the evaluation, and summarize the results for the demo and the presentation.
+- Add application-question preview, sample answers grounded in the confirmed profile, or user-reviewed bullet suggestions only after the team moves that work into scope.
