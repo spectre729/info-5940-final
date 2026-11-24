@@ -37,5 +37,5 @@ Opt-in decisions pending for Security Baseline, Resiliency Baseline, and Propert
 Validate team answers; prepare and team-review README, vision, and technical environment inputs. Do not generate final requirements or advance through the answer/approval gates prematurely.
 
 ## Input Document Templates
-- inputs/vision.md: template created; team completion/review pending.
+- inputs/vision.md: draft updated 2026-11-24 with confirmed name, OpenAI gpt-6.1-terra, Adzuna, USAJOBS, pasted LinkedIn jobs, four-hour refresh, and user-reviewed bullet arrangement. Whole-team review boxes remain open. README was not edited.
 - inputs/technical-environment.md: template created; team completion/review pending.
