@@ -9,7 +9,9 @@
 ## Coding Agent and AI-DLC version
 
 
-also to be filled
+Coding Agent: Codex
+
+AI-DLC version: 1.0.1
 
 ## Problem and rationale for using LLMs
 
