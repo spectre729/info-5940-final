@@ -52,6 +52,7 @@ Inception: requirements and answered questions; stories and personas; execution 
 - [x] Create vision and technical environment fill-in templates.
 - [x] Draft README part 1 using user answers and existing-system reference.
 - [x] Draft README planned LLM integration and project scope/feasibility sections.
+- [x] Draft the README collaboration plan: project instruction, meeting rhythm, and four choosable task parts. Team claims, three names and NetIDs, weekly meeting times, and model choice remain open.
 - [ ] Fill and review README, vision, and technical environment inputs.
 - [ ] Complete and approve requirements.
 - [ ] Complete and approve stories/personas.

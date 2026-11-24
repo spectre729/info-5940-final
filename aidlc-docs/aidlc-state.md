@@ -36,6 +36,9 @@ Opt-in decisions pending for Security Baseline, Resiliency Baseline, and Propert
 ## Next Step
 Validate team answers; prepare and team-review README, vision, and technical environment inputs. Do not generate final requirements or advance through the answer/approval gates prematurely.
 
+## Collaboration plan draft
+- 2026-11-24: README collaboration plan drafted with the project instruction and four unclaimed parts. This does not complete Requirements Analysis. Names and NetIDs for three members, weekly meeting times, part claims, and the model choice are still open.
+
 ## Input Document Templates
 - inputs/vision.md: template created; team completion/review pending.
 - inputs/technical-environment.md: template created; team completion/review pending.
