@@ -2,10 +2,10 @@
 
 ## Team name and netID
 
-Yiyang Cheng yc3259
-Alyssa Cohen ac2726
-Don Seo ds2549
-Dennis Chen dc777
+- Yiyang Cheng yc3259
+- Alyssa Cohen ac2726
+- Don Seo ds2549
+- Dennis Chen dc777
 ## Coding Agent and AI-DLC version
 
 
