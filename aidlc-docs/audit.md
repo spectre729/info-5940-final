@@ -182,7 +182,7 @@ C) Other (describe cadence, channel, and expected behavior while the app is clos
 ## Requirements Analysis - vision draft
 **Timestamp**: 2026-11-24T20:20:27Z
 **User Input**: "https://github.com/spectre729/info-5940-final/blob/main/aidlc-docs/inputs/vision.md
-请严格遵循这个模板的要求，完成vision.md，有问题中途可以问我，有需要的信息可以在这个repo中查找"
+Follow this template strictly and complete vision.md. Ask me if anything is unclear along the way, and look up any needed information in this repo."
 **AI Response**: "Replaced the vision template with a draft that keeps every template section. Used the README and the recorded answers for audience, profile review, 72-hour priority, grounded explanations, in-app default with optional email, duplicate suppression, local demo, and the listed exclusions. Did not invent a product name, model, source list, refresh cadence, or a decision on recombining resume bullets. Those remain OPEN-01 through OPEN-05. Team-review boxes stay unchecked and no approval is recorded. Plain Markdown validated: no TODO placeholders and no diagrams."
 **Context**: Requirements Analysis input preparation. Vision is a draft for team review, not stage approval. Requirements Analysis is not complete.
 
@@ -190,7 +190,7 @@ C) Other (describe cadence, channel, and expected behavior while the app is clos
 
 ## Requirements Analysis - vision decisions confirmed
 **Timestamp**: 2026-11-24T20:50:29Z
-**User Input**: "确认，记住在仓库里的要全英文"
+**User Input**: "Confirmed. Remember that everything in the repository must be in English."
 **AI Response**: "Updated aidlc-docs/inputs/vision.md in English only. Recorded the confirmed name AI Job Application Agent, OpenAI gpt-6.1-terra with Anthropic claude-haiku-5-5 as fallback, sources Adzuna US API, USAJOBS API, user-pasted LinkedIn job text, other pasted job text, and repository fixtures, a 4-hour scan while the app is running with no scan or email while it is closed, and user-reviewed arrangement of existing resume bullets as MVP-06. Did not edit README.md. Team-review boxes remain unchecked. Plain Markdown validated with no diagrams."
 **Context**: Requirements Analysis input preparation. The confirmation follows the in-chat recommendations and the request to add LinkedIn as a pasted job source. This is not a whole-team approval of the vision.
 
