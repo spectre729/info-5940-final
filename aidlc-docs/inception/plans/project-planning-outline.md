@@ -1,6 +1,6 @@
 # Proposed project plan
 
-Status: Draft for team discussion; not an approved execution plan.
+Status: Historical initial outline, superseded by the approved execution-plan.md and final milestone review. Progress below records completed Inception work; initial schedule/proposals are preserved as history.
 
 ## Assignment requirements
 
@@ -48,17 +48,17 @@ Inception: requirements and answered questions; stories and personas; execution 
 - [x] Read assignment and identify deliverables and deadlines.
 - [x] Propose product direction and schedule.
 - [x] Prepare questions, including extension opt-ins.
-- [ ] Receive and validate team answers.
+- [x] Receive and validate team answers.
 - [x] Create vision and technical environment fill-in templates.
 - [x] Draft vision.md from recorded README decisions. Whole-team review recorded on 2026-11-24. Open product decisions in the vision are resolved.
 - [x] Draft README part 1 using user answers and existing-system reference.
 - [x] Draft README planned LLM integration and project scope/feasibility sections.
-- [ ] Finish and review the README and technical-environment inputs. The vision team review is recorded.
-- [ ] Complete and approve requirements.
-- [ ] Complete and approve stories/personas.
-- [ ] Complete and approve formal execution plan.
-- [ ] Complete and approve application design and units.
-- [ ] Verify milestone deliverables and stop before Construction.
+- [x] Finish and review the README and technical-environment inputs. The vision team review is recorded.
+- [x] Complete and approve requirements.
+- [x] Complete and approve stories/personas.
+- [x] Complete and approve formal execution plan.
+- [x] Complete and approve application design and units.
+- [x] Verify milestone deliverables and stop before Construction.
 
 ## Evaluation to refine
 
@@ -66,4 +66,4 @@ Use fixed student profiles and opportunity data to evaluate relevance, factual g
 
 ## Extension compliance
 
-Security, resiliency, and property-based testing opt-ins are pending. Full rules remain deferred; no Requirements Analysis completion is claimed.
+All three extensions were subsequently enabled. Requirements, stories, workflow, application design and unit-stage matrices record their stage-level coverage and N/A rationale. No implemented/runtime compliance is claimed.
