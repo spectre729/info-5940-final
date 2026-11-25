@@ -104,3 +104,9 @@ def test_freshness_uses_posting_time_and_includes_72_hour_boundary():
 ## Evaluation during Construction
 
 Run fixture tests with two synthetic resumes, a corrected claim, a pasted job, fresh/older/undated listings and a repeated saved listing. Verify the corrected claim is used, each explanation cites both sources, and the saved role does not reappear as new. Reject fabricated bullet IDs and verify that rejecting a suggestion leaves the profile unchanged. Use a temporary SQLite file, a fixed clock and simulated HTTP/model/SMTP responses to check restarts, catch-up scans and failure handling. Test live provider access separately on a team laptop and record the results in the shared workflow.
+
+## Accepted extension amendment
+
+The enabled-extension follow-up answers retain full security and resiliency controls for the single-user local MVP, accept Backup and Restore with a four-hour RTO and 24-hour RPO, and use the README GitHub PR review process with test evidence and rollback notes. The later requirements specification defines the resulting obligations.
+
+The plain HTTP command and unencrypted SQLite/files above are an initial prototype sketch, not sufficient for the accepted baseline. Before a personal-data demo, design must provide encrypted storage/backups with key management, local HTTPS/TLS, authenticated single-user resource access, secure sessions, protected centralized logging/alerts, and secrets management. The secure startup commands, libraries and storage/key arrangements will be specified during design. Do not claim that SQLite, an ignored directory, localhost binding, or environment variables alone fulfill these controls. Full PBT is enabled; framework selection is part of NFR Requirements and configuration/testing is part of Construction.
