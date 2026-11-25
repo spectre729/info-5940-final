@@ -53,8 +53,8 @@ Each member claims one of the four parts below. Implementation changes go throug
 
 | Part | Focus | Claimed by (full name, NetID) |
 |---|---|---|
-| 1 | Process, repository, and AI-DLC record | |
-| 2 | Product definition, stories | |
+| 1 | Process, repository, and AI-DLC record | Don Seo, (ds2549)|
+| 2 | Product definition, stories | Yiyang Cheng, (ycc3259)|
 | 3 | Technical environment and local backend | Dennis Chen, (dc777)|
 | 4 | Profile, matching quality, and evaluation | Alyssa Cohen, (ac2726) |
 
