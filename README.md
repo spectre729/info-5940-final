@@ -56,7 +56,7 @@ Each member claims one of the four parts below. Implementation changes go throug
 | 1 | Process, repository, and AI-DLC record | |
 | 2 | Product definition, stories | |
 | 3 | Technical environment and local backend | |
-| 4 | Profile, matching quality, and evaluation | |
+| 4 | Profile, matching quality, and evaluation | Alyssa Cohen, (ac2726) |
 
 Tasks everyone shares:
 
